@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:layout_margin="10dp"
+    android:background="#bd90b4"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="264dp"
+        android:layout_gravity="fill_horizontal"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/date_task"
+        android:layout_row="0"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="207dp"
+        android:textSize="18sp"
+        android:textColor="#dbd9da"/>
+    <TextView
+        android:id="@+id/duration_task"
+        android:layout_width="330dp"
+        android:lines="1"
+        android:textSize="18dp"
+        android:textColor="#dbd9da"/>
+    <Button
+        android:id="@+id/delete_task"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/delete_task"
+        android:background="#ffffff"
+        />
+</GridLayout>

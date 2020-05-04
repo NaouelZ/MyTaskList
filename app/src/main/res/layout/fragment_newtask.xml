@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newtask">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/item_edit_text"
+            android:hint="@string/new_name_task"
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="50dp"
+            android:inputType="text"
+            />
+        <EditText
+            android:id="@+id/new_task_description"
+            android:hint="@string/new_task_description"
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="50dp"
+            android:inputType="text"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_new_date"
+            />
+        <DatePicker
+            android:id="@+id/new_task_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:descendantFocusability="blocksDescendants"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_new_time"
+            />
+        <TimePicker
+            android:id="@+id/new_task_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:timePickerMode="spinner"
+            android:descendantFocusability="blocksDescendants"
+            />
+        <Button
+            android:id="@+id/add_btn"
+            android:text="@string/add_task"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

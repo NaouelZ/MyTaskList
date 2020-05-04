@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyTaskList</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="task_list">Liste des tâches</string>
+    <string name="new_task">Nouvelle tâche</string>
+    <string name="calender">Calendrier</string>
+
+    <string name="new_name_task">Nom de le tâche</string>
+    <string name="new_task_description">Description de la tâche</string>
+    <string name="text_new_date">Choisir la date limite</string>
+    <string name="new_task_date">Date de fin de la tâche</string>
+    <string name="text_new_time">Selectionner la durée de la tache</string>
+    <string name="add_task">Ajouter</string>
+
+    <string name="title_listtask">Liste des tâches</string>
+    <string name="delete_task">Supprimer</string>
+
+</resources>
